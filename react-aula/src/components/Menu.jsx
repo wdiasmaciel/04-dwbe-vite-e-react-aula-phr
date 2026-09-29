@@ -1,10 +1,12 @@
+import "../styles/menu.css";
+
 const Menu = () => {
 
     return (
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Produtos</a>
-            <a href="#">Contato</a>
+        <nav class="menu">
+            <a class="opcao" href="#">Home</a>
+            <a class="opcao" href="#">Produtos</a>
+            <a class="opcao" href="#">Contato</a>
         </nav>
     );
 
