@@ -24,10 +24,14 @@ const App = () => {
         <CardProdutoProps nome="Notebook Dell" preco={4200} />
         <CardProdutoProps nome="Mouse Gamer" preco={180} />
         <CardProdutoProps nome="Teclado Mecânico" preco={350} />
+
+        <CardProdutoDesestruturacaoDeProps nome="TV" preco={3259} />
+        <CardProdutoDesestruturacaoDeProps nome="Monitor" preco={1899} />
+
         {
           data.map((element, index) => {
             return (
-              <CardProdutoDesestruturacaoDeProps
+              <CardProdutoDesestruturacaoDePropsMaisInformacao
                 key={index}
                 nome={element.nome}
                 categoria={element.categoria}
