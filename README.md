@@ -1,7 +1,5 @@
 # 04-dwbe-vite-e-react-aula-phr
 
-# 03-dwbe-vite-e-react-aula-phr
-
 ```bash
 sudo apt update
 ```
