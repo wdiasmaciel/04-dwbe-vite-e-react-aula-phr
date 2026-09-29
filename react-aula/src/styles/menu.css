@@ -1,4 +1,10 @@
 .menu {
     display: flex;
     flex-direction: column;
+    gap: 10px;
+}
+
+.opcao {
+    background-color: #ddd;
+    padding: 10px;
 }
