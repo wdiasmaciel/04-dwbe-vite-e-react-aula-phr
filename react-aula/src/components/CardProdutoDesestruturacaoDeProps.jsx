@@ -1,3 +1,5 @@
+import "../styles/card.css";
+
 function CardProdutoDesestruturacaoDeProps({ nome, preco }) {
 	return (
 		<div>
@@ -6,3 +8,5 @@ function CardProdutoDesestruturacaoDeProps({ nome, preco }) {
 		</div>
 	);
 }
+
+export default CardProdutoDesestruturacaoDeProps;

@@ -1,3 +1,5 @@
+import "../styles/card.css";
+
 function CardProdutoDesestruturacaoDePropsMaisInformacao({ nome, categoria, preco, estoque }) {
 
     return (

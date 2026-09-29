@@ -1,3 +1,4 @@
+import "../styles/card.css";
 
 const CardProdutoProps = (props) => {
 
