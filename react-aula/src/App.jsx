@@ -1,6 +1,7 @@
 //dados
 import data from "./assets/data/data.json";
 import './App.css'
+import Header from "./components/Header";
 
 const App = () => {
 
