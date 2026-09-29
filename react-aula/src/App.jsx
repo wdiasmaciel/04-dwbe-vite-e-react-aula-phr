@@ -4,6 +4,7 @@ import './App.css'
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import CardProdutoFixo from "./components/CardProdutoFixo";
+import CardProdutoProps from "./components/CardProdutoProps";
 import CardProduto from "./components/CardProduto";
 
 const App = () => {
@@ -16,6 +17,11 @@ const App = () => {
         <CardProdutoFixo />
         <CardProdutoFixo />
         <CardProdutoFixo />
+
+        <CardProdutoProps nome="Notebook Dell" preco={4200} />
+        <CardProdutoProps nome="Notebook Dell" preco={4200} />
+        <CardProdutoProps nome="Mouse Gamer" preco={180} />
+        <CardProdutoProps nome="Teclado Mecânico" preco={350} />
         {
           data.map((element, index) => {
             return (
