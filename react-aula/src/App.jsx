@@ -8,28 +8,28 @@ import CardProduto from "./components/CardProduto";
 
 const App = () => {
 
-  return(
+  return (
     <>
       <Header />
-      <div className="container-produtos">
+      <main className="container-produtos">
         <CardProdutoFixo />
         <CardProdutoFixo />
         <CardProdutoFixo />
         <CardProdutoFixo />
-      {
-        data.map((element, index) => {
-          return (
-            <CardProduto 
-              key={index} 
-              nome={element.nome} 
-              categoria={element.categoria} 
-              preco={element.preco} 
-              estoque={element.estoque} 
-            />
-          );
-        })
-      }
-      </div>
+        {
+          data.map((element, index) => {
+            return (
+              <CardProduto
+                key={index}
+                nome={element.nome}
+                categoria={element.categoria}
+                preco={element.preco}
+                estoque={element.estoque}
+              />
+            );
+          })
+        }
+      </main>
       <Footer />
     </>
   );

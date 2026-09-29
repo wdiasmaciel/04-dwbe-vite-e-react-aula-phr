@@ -1,6 +1,6 @@
 const Header = () => {
 
-    return(
+    return (
         <header>
             <h2>Sistema de Produtos</h2>
         </header>
