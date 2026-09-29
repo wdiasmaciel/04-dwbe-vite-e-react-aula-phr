@@ -1,11 +1,13 @@
 //dados
 import data from "./assets/data/data.json";
+
 import './App.css'
+
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import CardProdutoFixo from "./components/CardProdutoFixo";
 import CardProdutoProps from "./components/CardProdutoProps";
-import CardProduto from "./components/CardProduto";
+import CardProdutoDesestruturacaoDeProps from "./components/CardProdutoDesestruturacaoDeProps";
 
 const App = () => {
 
@@ -25,7 +27,7 @@ const App = () => {
         {
           data.map((element, index) => {
             return (
-              <CardProduto
+              <CardProdutoDesestruturacaoDeProps
                 key={index}
                 nome={element.nome}
                 categoria={element.categoria}
