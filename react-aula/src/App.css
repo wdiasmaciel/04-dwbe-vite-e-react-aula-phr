@@ -1,0 +1,11 @@
+.container-produtos {
+  display: grid;
+  /* Cria colunas automáticas de no mínimo 250px. Se não couber, joga para a linha de baixo */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  /* Espaçamento de 20px entre os cards */
+  gap: 20px; 
+  /* Margem nas laterais e espaçamento interno */
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto; /* Centraliza o container na tela em monitores grandes */
+}

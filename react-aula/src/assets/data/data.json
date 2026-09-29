@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "nome": "Processador AMD Ryzen 7 7800X3D",
+    "categoria": "Hardware",
+    "preco": 2899.90,
+    "estoque": 15
+  },
+  {
+    "id": 2,
+    "nome": "Placa de Vídeo RTX 4070 Super 12GB",
+    "categoria": "Hardware",
+    "preco": 4299.00,
+    "estoque": 8
+  },
+  {
+    "id": 3,
+    "nome": "Memória RAM Corsair Vengeance 32GB (2x16GB) DDR5 6000MHz",
+    "categoria": "Hardware",
+    "preco": 899.99,
+    "estoque": 25
+  },
+  {
+    "id": 4,
+    "nome": "SSD Kingston NV2 1TB NVMe M.2",
+    "categoria": "Armazenamento",
+    "preco": 429.50,
+    "estoque": 40
+  },
+  {
+    "id": 5,
+    "nome": "Placa-Mãe ASUS TUF Gaming B650-Plus",
+    "categoria": "Hardware",
+    "preco": 1450.00,
+    "estoque": 12
+  },
+  {
+    "id": 6,
+    "nome": "Fonte Corsair RM750x 750W 80 Plus Gold",
+    "categoria": "Hardware",
+    "preco": 749.90,
+    "estoque": 18
+  },
+  {
+    "id": 7,
+    "nome": "Gabinete Gamer NZXT H5 Flow Black",
+    "categoria": "Gabinetes e Refrigeração",
+    "preco": 599.00,
+    "estoque": 10
+  },
+  {
+    "id": 8,
+    "nome": "Water Cooler DeepCool LS720 360mm",
+    "categoria": "Gabinetes e Refrigeração",
+    "preco": 689.90,
+    "estoque": 14
+  },
+  {
+    "id": 9,
+    "nome": "Monitor Gamer LG Ultragear 27'' IPS 144Hz 1ms",
+    "categoria": "Monitores",
+    "preco": 1299.00,
+    "estoque": 22
+  },
+  {
+    "id": 10,
+    "nome": "Teclado Mecânico Redragon Kumara Switch Blue",
+    "categoria": "Periféricos",
+    "preco": 229.90,
+    "estoque": 50
+  },
+  {
+    "id": 11,
+    "nome": "Mouse sem Fio Logitech G Pro X Superlight 2",
+    "categoria": "Periféricos",
+    "preco": 849.00,
+    "estoque": 30
+  },
+  {
+    "id": 12,
+    "nome": "Headset Gamer HyperX Cloud II Wireless",
+    "categoria": "Periféricos",
+    "preco": 799.90,
+    "estoque": 16
+  },
+  {
+    "id": 13,
+    "nome": "Roteador Wi-Fi 6 TP-Link Archer AX12",
+    "categoria": "Redes",
+    "preco": 299.00,
+    "estoque": 35
+  },
+  {
+    "id": 14,
+    "nome": "Nobreak Intelbras ATTIV 1200VA BI",
+    "categoria": "Energia",
+    "preco": 649.90,
+    "estoque": 9
+  },
+  {
+    "id": 15,
+    "nome": "Webcam Logitech C920s Full HD 1080p",
+    "categoria": "Periféricos",
+    "preco": 379.00,
+    "estoque": 27
+  }
+]
