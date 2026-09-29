@@ -4,6 +4,7 @@ import data from "./assets/data/data.json";
 import './App.css'
 
 import Header from "./components/Header";
+import Menu from "./components/Menu";
 import Footer from "./components/Footer";
 import CardProdutoFixo from "./components/CardProdutoFixo";
 import CardProdutoProps from "./components/CardProdutoProps";
