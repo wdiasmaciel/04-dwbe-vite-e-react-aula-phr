@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import CardProdutoFixo from "./components/CardProdutoFixo";
 import CardProdutoProps from "./components/CardProdutoProps";
 import CardProdutoDesestruturacaoDeProps from "./components/CardProdutoDesestruturacaoDeProps";
+import CardProdutoDesestruturacaoDePropsMaisInformacao from "./components/CardProdutoDesestruturacaoDePropsMaisInformacao";
 
 const App = () => {
 
@@ -47,7 +48,7 @@ const App = () => {
           })
         }
       </main>
-      
+
       <Footer />
     </>
   );
