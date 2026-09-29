@@ -14,6 +14,8 @@ const App = () => {
   return (
     <>
       <Header />
+      <Menu />
+
       <main className="container-produtos">
         <CardProdutoFixo />
         <CardProdutoFixo />
@@ -45,6 +47,7 @@ const App = () => {
           })
         }
       </main>
+      
       <Footer />
     </>
   );
