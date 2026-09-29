@@ -9,3 +9,7 @@
   max-width: 1000px;
   margin: 0 auto; /* Centraliza o container na tela em monitores grandes */
 }
+
+h2 {
+  color: blue;
+}
