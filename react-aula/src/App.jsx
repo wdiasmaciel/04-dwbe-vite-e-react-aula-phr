@@ -28,6 +28,9 @@ const App = () => {
         <CardProdutoDesestruturacaoDeProps nome="TV" preco={3259} />
         <CardProdutoDesestruturacaoDeProps nome="Monitor" preco={1899} />
 
+        <CardProdutoDesestruturacaoDePropsMaisInformacao nome="Notebook Dell" categoria="Informática" preco={4200} estoque={10} />
+        <CardProdutoDesestruturacaoDePropsMaisInformacao nome="Monitor LG" categoria="Monitores" preco={980} estoque={5} />
+
         {
           data.map((element, index) => {
             return (
