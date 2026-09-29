@@ -18,23 +18,31 @@ const App = () => {
       <Header />
       <Menu />
 
-      <main className="container-produtos">
+      <div className="container-produtos">
         <CardProdutoFixo />
         <CardProdutoFixo />
         <CardProdutoFixo />
         <CardProdutoFixo />
+      </div>
 
+      <div className="container-produtos">
         <CardProdutoProps nome="Notebook Dell" preco={4200} />
         <CardProdutoProps nome="Notebook Dell" preco={4200} />
         <CardProdutoProps nome="Mouse Gamer" preco={180} />
         <CardProdutoProps nome="Teclado Mecânico" preco={350} />
+      </div>
 
+      <div className="container-produtos">
         <CardProdutoDesestruturacaoDeProps nome="TV" preco={3259} />
         <CardProdutoDesestruturacaoDeProps nome="Monitor" preco={1899} />
+      </div>
 
+      <div className="container-produtos">
         <CardProdutoDesestruturacaoDePropsMaisInformacao nome="Notebook Dell" categoria="Informática" preco={4200} estoque={10} />
         <CardProdutoDesestruturacaoDePropsMaisInformacao nome="Monitor LG" categoria="Monitores" preco={980} estoque={5} />
+      </div>
 
+      <div className="container-produtos">
         {
           data.map((element, index) => {
             return (
@@ -48,7 +56,7 @@ const App = () => {
             );
           })
         }
-      </main>
+      </div>
 
       <Footer />
     </>
