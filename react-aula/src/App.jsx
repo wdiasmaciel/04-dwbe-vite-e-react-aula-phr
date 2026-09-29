@@ -42,8 +42,8 @@ const App = () => {
       <div className="container-produtos">
         <CardProdutoDesestruturacaoDePropsMaisInformacao nome="Notebook Dell" categoria="Informática" preco={4200} estoque={10} />
         <CardProdutoDesestruturacaoDePropsMaisInformacao nome="Monitor LG" categoria="Monitores" preco={980} estoque={5} />
-        <CardProdutoDesestruturacaoDePropsMaisInformacao nome="Tablet Dell" categoria="Informática" preco={2200} estoque={10} />
-        <CardProdutoDesestruturacaoDePropsMaisInformacao nome="Tablet LG" categoria="Monitores" preco={1980} estoque={5} />
+        <CardProdutoDesestruturacaoDePropsMaisInformacao nome="Tablet Samsung" categoria="Informática" preco={2200} estoque={10} />
+        <CardProdutoDesestruturacaoDePropsMaisInformacao nome="Tablet Vaio" categoria="Monitores" preco={1980} estoque={5} />
       </div>
 
       <div className="container-produtos">
