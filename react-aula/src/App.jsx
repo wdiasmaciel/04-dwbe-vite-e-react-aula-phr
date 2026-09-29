@@ -3,6 +3,8 @@ import data from "./assets/data/data.json";
 import './App.css'
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import CardProdutoFixo from "./components/CardProdutoFixo";
+import CardProduto from "./components/CardProduto";
 
 const App = () => {
 
@@ -10,6 +12,10 @@ const App = () => {
     <>
       <Header />
       <div className="container-produtos">
+        <CardProdutoFixo />
+        <CardProdutoFixo />
+        <CardProdutoFixo />
+        <CardProdutoFixo />
       {
         data.map((element, index) => {
           return (
