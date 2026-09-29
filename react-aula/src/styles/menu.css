@@ -17,6 +17,6 @@
 
 .opcao:hover {
     background-color: #ddd;
-    border: 1px solid #ccc
+    border: 1px solid #ccc;
     box-shadow: 0 3px 1px .5px #bbb;
 }
