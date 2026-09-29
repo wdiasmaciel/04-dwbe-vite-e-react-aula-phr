@@ -19,6 +19,7 @@ const App = () => {
       <Menu />
 
       <div className="container-produtos">
+        <h2>CardProdutoFixo:</h2>
         <CardProdutoFixo />
         <CardProdutoFixo />
         <CardProdutoFixo />
@@ -26,6 +27,7 @@ const App = () => {
       </div>
 
       <div className="container-produtos">
+        <h2>CardProdutoProps:</h2>
         <CardProdutoProps nome="Notebook Dell" preco={4200} />
         <CardProdutoProps nome="Notebook Dell" preco={4200} />
         <CardProdutoProps nome="Mouse Gamer" preco={180} />
@@ -33,6 +35,7 @@ const App = () => {
       </div>
 
       <div className="container-produtos">
+        <h2>CardProdutoDesestruturacaoDeProps:</h2>
         <CardProdutoDesestruturacaoDeProps nome="TV" preco={3259} />
         <CardProdutoDesestruturacaoDeProps nome="Monitor" preco={1899} />
         <CardProdutoDesestruturacaoDeProps nome="Suporte de TV" preco={459} />
@@ -40,6 +43,7 @@ const App = () => {
       </div>
 
       <div className="container-produtos">
+        <h2>CardProdutoDesestruturacaoDePropsMaisInformacao:</h2>
         <CardProdutoDesestruturacaoDePropsMaisInformacao nome="Notebook Dell" categoria="Informática" preco={4200} estoque={10} />
         <CardProdutoDesestruturacaoDePropsMaisInformacao nome="Monitor LG" categoria="Monitores" preco={980} estoque={5} />
         <CardProdutoDesestruturacaoDePropsMaisInformacao nome="Tablet Samsung" categoria="Informática" preco={2200} estoque={10} />
