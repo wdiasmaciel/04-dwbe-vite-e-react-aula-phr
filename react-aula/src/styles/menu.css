@@ -7,4 +7,6 @@
 .opcao {
     background-color: #ddd;
     padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
 }
