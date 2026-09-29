@@ -89,13 +89,13 @@ Sistema de Produtos
 
 Cada cartão deve exibir:
 
-- Nome do produto
-
-- Categoria
-
-- Preço
-
-- Quantidade em estoque
+    - Nome do produto
+    
+    - Categoria
+    
+    - Preço
+    
+    - Quantidade em estoque
 
 Todos os cartões devem utilizar o mesmo componente `CardProduto`, diferenciando-se apenas pelos valores recebidos por meio de Props.
 
